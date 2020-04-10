@@ -1,3 +1,4 @@
+class Solution:
     def mergeSort(self, head: ListNode) -> ListNode:
         if head is None or head.next is None:
             return head
@@ -33,4 +34,3 @@
         if l2 is not None:
             endOfSortedList.next = l2                   
         return dummyHead.next
-
